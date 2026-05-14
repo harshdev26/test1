@@ -11,13 +11,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t enterprise-app .'
+                sh 'docker build -t enterprise-app .'
             }
         }
 
         stage('Run Docker Container') {
             steps {
-                bat 'docker run -d -p 5000:5000 --name enterprise-container enterprise-app'
+                sh 'docker run -d -p 5000:5000 --name enterprise-container enterprise-app'
             }
         }
     }
