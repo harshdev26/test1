@@ -1,0 +1,6 @@
+projectKey=Enterprisegit
+serverUrl=http://localhost:9001
+serverVersion=9.9.8.100196
+dashboardUrl=http://localhost:9001/dashboard?id=Enterprisegit
+ceTaskId=AZ4heG-YBBhDCMgIY-0s
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AZ4heG-YBBhDCMgIY-0s
